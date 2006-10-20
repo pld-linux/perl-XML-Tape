@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
@@ -10,7 +10,7 @@ Summary:	XML::Tape - module for the manipulation of XMLtape archives
 Summary(pl):	XML::Tape - modu³ do obróbki archiwów XMLtape
 Name:		perl-XML-Tape
 Version:	0.22
-Release:	0.1
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
