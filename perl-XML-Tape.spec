@@ -7,7 +7,7 @@
 %define		pdir	XML
 %define		pnam	Tape
 Summary:	XML::Tape - module for the manipulation of XMLtape archives
-Summary(pl):	XML::Tape - modu³ do obróbki archiwów XMLtape
+Summary(pl.UTF-8):   XML::Tape - moduÅ‚ do obrÃ³bki archiwÃ³w XMLtape
 Name:		perl-XML-Tape
 Version:	0.22
 Release:	1
@@ -36,13 +36,13 @@ format for big collections of XML files which can be processed with
 off the shelf tools and validated against a schema. The XMLtape is
 typically used in digital preservation projects.
 
-%description -l pl
-Modu³ XML::Tape to opakowanie XML jednokrotnego zapisu i wielokrotnego
-odczytu dla zbioru dokumentów XML. Udostêpnia ³atwy format
-przechowywania du¿ych zbiorów plików XML, które mog± byæ przetwarzane
-przy u¿yciu odpowiednich narzêdzi i sprawdzane pod k±tem zgodno¶ci ze
-schematem. XMLtape zwykle jest u¿ywany przy projektach cyfrowych
-zabezpieczeñ.
+%description -l pl.UTF-8
+ModuÅ‚ XML::Tape to opakowanie XML jednokrotnego zapisu i wielokrotnego
+odczytu dla zbioru dokumentÃ³w XML. UdostÄ™pnia Å‚atwy format
+przechowywania duÅ¼ych zbiorÃ³w plikÃ³w XML, ktÃ³re mogÄ… byÄ‡ przetwarzane
+przy uÅ¼yciu odpowiednich narzÄ™dzi i sprawdzane pod kÄ…tem zgodnoÅ›ci ze
+schematem. XMLtape zwykle jest uÅ¼ywany przy projektach cyfrowych
+zabezpieczeÅ„.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
