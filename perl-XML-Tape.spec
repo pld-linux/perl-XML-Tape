@@ -7,7 +7,7 @@
 %define		pdir	XML
 %define		pnam	Tape
 Summary:	XML::Tape - module for the manipulation of XMLtape archives
-Summary(pl.UTF-8):   XML::Tape - moduł do obróbki archiwów XMLtape
+Summary(pl.UTF-8):	XML::Tape - moduł do obróbki archiwów XMLtape
 Name:		perl-XML-Tape
 Version:	0.22
 Release:	1
